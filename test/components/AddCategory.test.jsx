@@ -46,6 +46,5 @@ describe('Pruebas en <AddCategory/>', ()=> {
       fireEvent.submit(form);
 
       expect(onAddCategory).toHaveBeenCalledTimes(0);
-
     })
 })
